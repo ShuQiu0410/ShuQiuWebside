@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>CSS自學</title>
+    </head>
+
+    <body>
+        <h1>CSS自學網頁</h1>
+        <a href="index.html">上一頁</a>
+        <h2>顏色</h2>
+        <!--color-->
+        <div style="font-size: 14px;line-height: 15px;">
+            <p>div可以將內部整合 以方便套用CSS</p>
+            <p><b style="color:red;font-size: 20px;">style</b>可以去修飾文字(大小顏色等)</p>
+            <p style="color: #114514;">顏色可以寫代號也可以用16進制色碼</p>
+            <p>style內部小標(color font-size等)在冒號後加上值 並以分號相隔</p>
+            <p style="background-color: aqua; height: 30px;line-height: 30px;width: 200px;">當然也可以有背景色之類的</p>
+        </div>
+        <hr/>
+        <h2>空間</h2>
+        <!--padding & margin-->
+        <div style="background-color: aquamarine;border: lightgreen solid 2px;padding: 10px;margin: 20px;">
+            <p><b style="color:red;font-size: 20px;">padding</b> 是內部空間 <b style="color:red;font-size: 20px;">margin</b> 是外部空間</p>
+            <p>這是padding 10px 與 margin 20px 的效果 (px是像素 長度單位)</p>
+        </div>
+        <p>可以按F12看到詳細的位置與效果</p>
+        <hr/>
+        <h2>排版</h2>
+        <!--float & display-->
+        <img src="https://th.bing.com/th/id/R.74b341c48348a197ea19978334eb3b59?rik=MUA4%2fGXiejAZhA&pid=ImgRaw&r=0" width="200px" style="float:right;"/>
+        <p><b style="color:red;font-size: 20px;">float</b>可以使一個位置(圖片列表等)浮起 使得我們的文字可以貼在旁邊</p>
+        <p>而html的顯示有兩種形式</p>
+        <ul style="float:left;width: 50px;color:red; ">
+            <li>block</li>
+            <li>inline</li>
+        </ul>
+        <p>p就屬於block 不論大小 就是算一整行</p>
+        <span>span則屬於inline</span>
+        <span>就算程式碼換行 他也顯示在同一行 文字占用多少空間就是多少空間</span>
+        <p>可以用display來修改這屬性</p>
+        <p style="display:inline;">例如這樣</p>
+        <p style="display: inline;">p就可以在同一行</p>
+        <hr/>
+        <h2></h2>
+    </body>
+</html>

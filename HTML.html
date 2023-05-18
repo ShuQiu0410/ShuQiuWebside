@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="description" content="我的自學網站(各種語法)"/>
+        <meta name="author" content="ShuQiu"/>
+        <meta name="keywords" content="HTML,自學,網頁"/>
+        <title>自學網頁</title>
+        
+    </head>
+    <body>
+        <h1>HTML自學網頁</h1>
+        <a href="index.html">上一頁</a>
+        <h2>HTML編輯</h2>
+        <p>HTML的程式碼是由前後各一組的<>所組成</p>
+        <p>兩組的程式碼相同 後面那組必須在最前方放上"/"</p>
+        <p>然後將內為放在兩個<>之中</p>
+        <p>如果沒有(或不需要)內為 則可以直接在第一個<>的程式碼後加上"/"(省略寫法 完整編寫不算錯)</p>
+        <hr/>
+        <h2>基本文字輸入</h2>
+        <ul>
+            <li>內文 p</li>
+            <li><b>粗體 b</b></li>
+            <li><i>斜體 i</i></li>
+        </ul>
+        <b><i>當然也可以疊加</i></b>
+        <hr/>
+        <h2>超連結</h2>
+        <a href="https://www.google.com">導向google</a>
+        <a href="https://www.bing.com">導向Bing</a>
+        <a href="CSS.html">CSS自學</a>
+        <p>超連結 <b>a</b> </p>
+        <p>連結放在後面修飾詞 <b>href</b>後(字串形式)</p>
+        <hr/>
+        <h2>特殊</h2>
+        <p>hr 為橫線</p>
+        <p>br 為換行</p>
+        <hr/>
+        <h2>圖片 & 影片</h2>
+        <img src="https://i0.wp.com/tw.alphacamp.co/wp-content/uploads/2022/12/60d29cc33f302e4e471d047b_P1ALqVVlId4Js95jjWeVzvw_q2ogJyj_7nK1f5diY_04588QglABm9yeDYatcd-gKZoYDYSN2Afz-QoxBA500h2Gon0K0bJeVQFs4vYyHQOfOwGt71byqpSA4G2R3eVN5IILtpDE.png?w=800&ssl=1" width="300">
+        <p>圖片為 <b>img</b> 連結需在後面修飾詞 <b>src</b>後(字串形式)</p>
+        <p>當然也可以用本機檔案</p>
+        <iframe width="654" height="368" src="https://www.youtube.com/embed/CLUPkcLQm64" title="【html】1小時初學者教學 #html #html教學 #html入門" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>影片則可以直接到Youtube複製"嵌入式程式碼"</p>
+        <hr/>
+        <h2>輸入文字</h2>
+        <input type="text" placeholder="這可以輸入文字"/>
+        <br/>
+        <input type="password" placeholder="密碼形式"/>
+        <p>使用 <b>input</b> 修飾詞<b>type</b>可以調整類型(密碼等) 修飾詞<b>placeholder</b>可以在未輸入時描述</p>
+        <hr/>
+        <h2>列表 & 表格</h2>
+        <p>列表可以用 <b>ul</b> 或 <b>ol</b></p>
+        <ol>
+            <li>第一條</li>
+            <li>第二條</li>
+        </ol>
+        <ul>
+            <li>第一條</li>
+            <li>第二條</li>
+        </ul>
+        <P>兩者差別是ul為無序排列(沒有編號) ol為有序排列 有編號</P>
+        <p>其中內文每條都要用<b>li</b>來分隔</p>
+        <p>有序排列也可以有不同的記數風格 用修飾詞<b>type</b>來修改</p>
+        <ol type="A">
+            <li>第一條</li>
+            <li>第二條</li>
+        </ol>
+        <br/>
+        <br/>
+        <p>表格用<b>table</b>來表示</p>
+        <table width="300">
+            <tr>
+                <td>日期</td>
+                <td>天氣</td>
+            </tr>
+            <tr>
+                <td>5/16</td>
+                <td>晴</td>
+            </tr>
+            <tr>
+                <td>5/17</td>
+                <td>大晴</td>
+            </tr>
+        </table>
+        <p>其內文每一橫列用<b>tr</b>來組合 tr內有<b>td</b>來放置元素</p>
+        <p>也點像是二為陣列[tr][td]的感覺</p>
+        <hr/>
+        <h2>其他修飾詞</h2>
+        <p>可以用<b>width</b>來限制寬度 <b>height</b>來限制高度</p>
+    </body>
+
+</html>
