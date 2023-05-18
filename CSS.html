@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="description" content="CSS入門的各種語法與效果"/>
+        <meta name="author" content="ShuQiu"/>
         <title>CSS自學</title>
     </head>
 
@@ -38,10 +40,37 @@
         <p>p就屬於block 不論大小 就是算一整行</p>
         <span>span則屬於inline</span>
         <span>就算程式碼換行 他也顯示在同一行 文字占用多少空間就是多少空間</span>
-        <p>可以用display來修改這屬性</p>
+        <p>可以用<b style="color:red;font-size: 20px;">display</b>來修改這屬性</p>
         <p style="display:inline;">例如這樣</p>
         <p style="display: inline;">p就可以在同一行</p>
         <hr/>
-        <h2></h2>
+        <h2>定位</h2>
+        <!--position-->
+        <div style="position: fixed;bottom:20px;right: 20px; width: 30px;height: 30px; background-color: lightcoral;"></div>
+        <p><b style="color:red;font-size: 20px;">position</b>是定位 其值<b style="color:red;font-size: 20px;">fixed</b>為固定定位</p>
+        <p>可以將其固定在畫面上 如同右下的方框(須加上右修飾與下修飾)</p>
+        <p>這將會使其失去原本的位置(如float)</p>
+        <br/>
+        <p><b style="color:red;font-size: 20px;">relative</b>為相對定位 會相對於原本該顯示的地方偏移</p>
+        <p>此方法只是改變顯示定位 原本所佔的空間依然存在</p>
+        <div style="position: relative;bottom :23px;left: 70px; width: 30px;height: 30px; background-color: lightgreen;"></div>
+        <br/>
+        <div style="position: absolute;top :0px;left: 0px; width: 30px;height: 30px; background-color: lightsalmon;"></div>
+        <p><b style="color:red;font-size: 20px;">absolute</b>為絕對定位 與fixed相同 會失去原本的位置</p>
+        <p>絕對定位是根據網頁來決定位置 而非fixed的畫面位置(如本網頁最左上角)</p>
+        <br/>
+        <p style="display: inline;">這可以與其他定位結合 如右</p>
+        <div style="position: relative ;float: right; padding: 30px;border: 3px solid; color: blue;width: 100px;height: 30px;">
+            <div style="position: absolute;top :0px;left: 0px; width: 30px;height: 30px; background-color: lightsalmon;"></div>
+        </div>
+        <p>這樣就可以以外層的範圍作絕對定位</p>
+        <br/>
+        <hr/>
+        <h2>透明度與圓滑邊緣 </h2>
+        <!-- opacity & border-radius-->
+        <div style="opacity: 0.5;border-radius: 10px; background-color: blueviolet;padding: 30px;height: 40px;"></div>
+        <p style="display: inline; position:relative;bottom:80px;left: 20px;"><b style="color:red;font-size: 20px;">opacity</b>是透明度 其值介於1~0之間</p>
+        <p style="display: block; position:relative;bottom:80px;left: 20px;"><b style="color:red;font-size: 20px;">border-radius</b>是處理邊角的圓滑的</p>
+        <hr/>
     </body>
 </html>
