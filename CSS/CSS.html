@@ -9,7 +9,7 @@
 
     <body>
         <h1>CSS自學網頁</h1>
-        <a href="index.html">上一頁</a>
+        <a href="../index.html">上一頁</a>
         <h2>顏色</h2>
         <!--color-->
         <div style="font-size: 14px;line-height: 15px;">
@@ -17,7 +17,8 @@
             <p><b style="color:red;font-size: 20px;">style</b>可以去修飾文字(大小顏色等)</p>
             <p style="color: #114514;">顏色可以寫代號也可以用16進制色碼</p>
             <p>style內部小標(color font-size等)在冒號後加上值 並以分號相隔</p>
-            <p style="background-color: aqua; height: 30px;line-height: 30px;width: 200px;">當然也可以有背景色之類的</p>
+            <p style="background-color: aqua; height: 30px;line-height: 30px;width: 260px;">當然也可以有背景色(background-color)</p>
+            <p style="border: yellow solid 2px;width: 100px;">與邊框(border)</p>
         </div>
         <hr/>
         <h2>空間</h2>
@@ -39,7 +40,7 @@
         </ul>
         <p>p就屬於block 不論大小 就是算一整行</p>
         <span>span則屬於inline</span>
-        <span>就算程式碼換行 他也顯示在同一行 文字占用多少空間就是多少空間</span>
+        <span>就算標籤換行 他也顯示在同一行 文字占用多少空間就是多少空間</span>
         <p>可以用<b style="color:red;font-size: 20px;">display</b>來修改這屬性</p>
         <p style="display:inline;">例如這樣</p>
         <p style="display: inline;">p就可以在同一行</p>
@@ -68,9 +69,14 @@
         <hr/>
         <h2>透明度與圓滑邊緣 </h2>
         <!-- opacity & border-radius-->
-        <div style="opacity: 0.5;border-radius: 10px; background-color: blueviolet;padding: 30px;height: 40px;"></div>
-        <p style="display: inline; position:relative;bottom:80px;left: 20px;"><b style="color:red;font-size: 20px;">opacity</b>是透明度 其值介於1~0之間</p>
-        <p style="display: block; position:relative;bottom:80px;left: 20px;"><b style="color:red;font-size: 20px;">border-radius</b>是處理邊角的圓滑的</p>
+        <div style="opacity: 0.5;border-radius: 10px; background-color: blueviolet;padding: 30px;height: 45px;"></div>
+        <p style="display: inline; position:relative;bottom:90px;left: 20px;"><b style="color:red;font-size: 20px;">opacity</b>是透明度 其值介於1~0之間</p>
+        <p style="display: block; position:relative;bottom:90px;left: 20px;"><b style="color:red;font-size: 20px;">border-radius</b>是處理邊角的圓滑的</p>
         <hr/>
+        <h2 id="1">全域風格</h2>
+        <p>此標籤將會套用至全域 因此另開一個頁面演示</p>
+        <a href="styleInCSS.html">點我傳送</a>
+        <p>也可以導入外部檔案來實現功能</p>
+        <a href="linkInCSS.html">點我傳送</a>
     </body>
 </html>
