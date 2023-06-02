@@ -1,0 +1,18 @@
+.token{
+    font-size: 20px;
+}
+.token.out{
+    color:rgb(185, 171, 171);
+}
+.token.in{
+    color:green
+}
+.code.block{
+    background-color: rgb(60, 56, 56);
+}
+pre code{
+    padding: 0;
+    color:#fff;
+    background: none;
+    padding: 20px;
+}

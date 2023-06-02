@@ -1,0 +1,22 @@
+h2 , ol li
+{
+    border: 2px solid red;
+}
+ol p
+{
+    height: 5px;
+    color:rgb(53, 123, 0)
+}
+*
+{
+    background-color: antiquewhite;
+}
+[href]
+{
+    background-color: lightcyan;
+}
+#hover:hover
+{
+    background-color: blue;
+    height: auto;
+}
