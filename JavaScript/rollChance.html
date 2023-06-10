@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="抽卡機率計算"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rollChance.css">
+    <title>RollChance</title>
+</head>
+<body>
+    <div class="title">
+        <p>抽獎機率計算器</p>
+    </div>
+    <div style="display:flex">
+        <div class="input">
+            <div>
+                <p style="display: inline;">抽卡次數</p>
+                <input id="times"/>
+            </div>
+            <div>
+                <p style="display: inline;">中獎機率</p>
+                <input id="chance"/>
+            </div>
+        </div>
+        <div class="ans">
+            <p class="chance">中獎機率</p>
+            <p id="ans"></p>
+        </div>
+    </div>
+    
+    <div class="start">
+        <button id="button">開始</button>
+        <script src="rollChance.js"></script>
+    </div>
+</body>
+</html>
