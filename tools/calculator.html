@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zn_ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ca">
+    <div>
+        <div id="screen">
+            <p  id="screen_box"></p>
+        </div>
+    </div>
+    <div class="input-button">
+        <div>
+            <button id="clear" onclick="clearbox()">C</button>
+            <button id="revertion" onclick="revertion()">+/-</button>
+            <button id="null">null</button>
+            <button id="additions" onclick="additions()">+</button>
+        </div>
+        <div>
+            <button id="1" onclick="input_1()">1</button>
+            <button id="2" onclick="input_2()">2</button>
+            <button id="3" onclick="input_3()">3</button>
+            <button id="subtraction" onclick="subtraction()">-</button>
+        </div>
+        <div>
+            <button id="4" onclick="input_4()">4</button>
+            <button id="5" onclick="input_5()">5</button>
+            <button id="6" onclick="input_6()">6</button>
+            <button id="multiplication" onclick="multiplication()">x</button>
+        </div>
+        <div>
+            <button id="7" onclick="input_7()">7</button>
+            <button id="8" onclick="input_8()">8</button>
+            <button id="9" onclick="input_9()">9</button>
+            <button id="division" onclick="division()">÷</button>
+        </div>
+        <div>
+            <button id="00" onclick="input_00()">00</button>
+            <button id="0" onclick="input_0()">0</button>
+            <button id="dot" onclick="input_dot()">.</button>
+            <button id="ans" onclick="ans()">=</button>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

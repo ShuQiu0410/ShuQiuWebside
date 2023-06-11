@@ -9,7 +9,7 @@ button.addEventListener("click",function(){
         document.getElementById("ans").innerHTML="Input Error";
     }else{
         var ans = (1-(Math.pow((1-chance.value/100),times.value)))*100;
-        ans = Math.round(ans*10000)/10000;
+        ans = Math.round(ans*1000)/1000;
         document.getElementById("ans").innerHTML=ans+"%";
     }
 })

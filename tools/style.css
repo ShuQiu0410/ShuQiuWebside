@@ -1,0 +1,90 @@
+.rl{
+    margin-top: -20px ;
+    height: 260px;
+}
+.rl .inf{
+    color: rgb(190, 144, 144);
+    font-size: 10px;
+    padding-left: 15px;
+}
+.rl .input{
+    border: 5px ridge ;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.rl button{
+    background-color: aqua;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: inline;
+    font-size: 15px;
+}
+.rl button:active{
+    box-shadow: inset 0px 0px 20px 0px #00adad;
+}
+.rl .ans{
+    padding: 20px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+    border: 5px ridge;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.rl #ans{
+    padding-top: 20px;
+}
+.rl .chance{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.rl .title{
+    margin-left: 130px;
+    font-size: 25px;
+    color: red;
+    margin-bottom: -20px;
+}
+.ca{
+    height: 260px;
+    padding-left: 60px;
+}
+.ca button{
+    width: 70px;
+    height: 30px;
+    background-color: hsl(60, 50%, 75%);
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.ca #clear{
+    background-color: hsl(0, 100%, 75%);
+}
+.ca #clear:active{
+    background-color: hsl(0, 100%, 60%);
+}
+.ca #ans:active{
+    background-color: hsl(120, 100%, 60%);
+}
+.ca #ans{
+    background-color: hsl(120, 100%, 75%);
+}
+.ca button:active{
+    background-color: hsl(60 50% 60%);
+}
+.ca #screen{
+    padding: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+    width: 280px;
+    height: 20px;
+}
+#screen p{
+    font-size:20px;
+    margin-top:0px;
+    margin-bottom:0px ;
+}

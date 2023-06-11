@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="抽卡機率計算"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rollChance.css">
+    <link rel="stylesheet" href="style.css">
     <title>RollChance</title>
 </head>
-<body>
+<body class="rl">
     <div class="title">
         <p>抽獎機率計算器</p>
     </div>
     <div style="display:flex">
         <div class="input">
             <div>
-                <p style="display: inline;">抽卡次數</p>
+                <p style="display: inline;">抽獎次數</p>
                 <input id="times"/>
             </div>
             <div>
@@ -33,5 +33,6 @@
         <button id="button">開始</button>
         <script src="rollChance.js"></script>
     </div>
+    <p class="inf">⁕四捨五入至小數點後3位</p>
 </body>
 </html>

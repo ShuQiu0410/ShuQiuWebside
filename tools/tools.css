@@ -1,0 +1,13 @@
+iframe{
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    border: 5px solid ;
+    background-color: aquamarine;
+    display: inline;
+    border-radius: 10px;
+}
