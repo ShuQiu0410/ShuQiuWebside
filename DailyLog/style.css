@@ -1,0 +1,14 @@
+.title
+{
+    background-color: aqua;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.inside
+{
+    background-color: aquamarine;
+    
+}

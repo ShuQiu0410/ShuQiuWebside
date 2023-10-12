@@ -1,0 +1,25 @@
+.bar{
+    border: 1px solid blue;
+
+}
+.block{
+    display: flex;
+    margin: 0px  0px  0px  10px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid gray;
+    justify-content: center;
+    text-align: center;
+}
+.block:hover{
+    animation: chose 1s;
+}
+@keyframes chose{
+    from{
+        background-color: white;
+        width: 100px;
+    }to{
+        background-color: aquamarine;
+        width: 150px;
+    }
+}

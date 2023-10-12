@@ -88,3 +88,50 @@
     margin-top:0px;
     margin-bottom:0px ;
 }
+.tc{
+    border: 2px solid;
+    padding: 20px;
+}
+.tc .output{
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    display: flex;
+}
+.tc .local{
+    border: 2px solid;
+    margin: 5px;
+    width: 230px;
+    height: 110px;
+    border-radius: 20px;
+}
+.tc .there{
+    border: 2px solid;
+    width: 230px;
+    height: 110px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.tc .dhms{
+    display: flex;
+    justify-content: center;
+}
+.tc .dhms div{
+    border: 2px ridge;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 20px;
+    text-align: center;
+}
+#local p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+#there p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

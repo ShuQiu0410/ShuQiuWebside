@@ -1,0 +1,16 @@
+body{
+    background-color: azure;
+}
+.head{
+    margin: 20px;
+    width: max-content;
+    padding: 20px;
+    border: 5px solid;
+    display: inline-flex;
+    background-color: bisque;
+}
+.link_block{
+    border: 2px solid;
+    padding: 5px;
+    margin: 5px;
+}

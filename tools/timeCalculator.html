@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間計算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tc" onload="start_btn()">
+    <div>
+        <div class="target">
+            <span>選擇目標時區</span>
+            <select id="target">
+                <option value="0120">UTC-12 IDLW 國際換日線</option>
+                <option value="0110">UTC-11 SST 美屬薩摩亞標準時間</option>
+                <option value="0100">UTC-10 HST 夏威夷－阿留申標準時間</option>
+                <option value="0095">UTC-9:30 MIT馬克薩斯群島標準時間</option>
+                <option value="0090">UTC-9 AKST 阿拉斯加標準時間</option>
+                <option value="0080">UTC-8 PST 太平洋標準時間</option>
+                <option value="0070">UTC-7 MST 北美山區標準時間</option>
+                <option value="0060">UTC-6 CST 北美中部標準時間</option>
+                <option value="0050">UTC-5 EST 北美東部標準時間</option>
+                <option value="0040">UTC-4 AST 大西洋標準時間</option>
+                <option value="0035">UTC-3:30 NST 紐芬蘭島標準時間</option>
+                <option value="0030">UTC-3 BRT 巴西利亞標準時間</option>
+                <option value="0020">UTC-2 FNT 費爾南多·迪諾羅尼亞群島標準時間</option>
+                <option value="0010">UTC-1 CVT 維德角標準時間</option>
+                <option value="0000">UTC GMT 格林威治標準時間</option>
+                <option value="1010">UTC+1 CET 歐洲中部時區</option>
+                <option value="1020">UTC+2 EET 歐洲東部時區</option>
+                <option value="1030">UTC+3 MSK 莫斯科時區</option>
+                <option value="1035">UTC+3:30 IRST 伊朗標準時間</option>
+                <option value="1040">UTC+4 GST 海灣標準時間</option>
+                <option value="1045">UTC+4:30 AFT 阿富汗標準時間</option>
+                <option value="1050">UTC+5 PKT 巴基斯坦標準時間</option>
+                <option value="1055">UTC+5:30 IST 印度標準時間</option>
+                <option value="1057">UTC+5:45 NPT 尼泊爾標準時間</option>
+                <option value="1060">UTC+6 BHT 孟加拉標準時間</option>
+                <option value="1065">UTC+6:30 MMT 緬甸標準時間</option>
+                <option value="1070">UTC+7 ICT 中南半島標準時間</option>
+                <option value="1080">UTC+8 CT/CST 中原標準時間</option>
+                <option value="1090">UTC+9 JST 日本標準時間</option>
+                <option value="1095">UTC+9:30 ACST 澳洲中部標準時間</option>
+                <option value="1100">UTC+10 AEST 澳洲東部標準時間</option>
+                <option value="1105">UTC+10:30 LHST 豪勳爵群島標準時間</option>
+                <option value="1110">UTC+11 VUT 萬那杜標準時間</option>
+                <option value="1120">UTC+12 NZST 紐西蘭標準時間</option>
+                <option value="1127">UTC+12:45 CHAST 查塔姆群島標準時間</option>
+                <option value="1130">UTC+13 PHOT 鳳凰群島標準時間</option>
+                <option value="1140">UTC+14 LINT 萊恩群島標準時間</option>
+            </select>
+        </div>
+    </div>
+    <div class="output">
+        <div class="local" id="local">
+            <p>現在地區時間</p>
+            <div class =dhms>
+                <div>月</div>
+                <div>日</div>
+                <div>時</div>
+                <div>分</div>
+                <div>秒</div>
+            </div>
+            <div class="dhms">
+                <div id="l_mon"></div>
+                <div id="l_day"></div><span> </span>
+                <div id="l_hou"></div>
+                <div id="l_min"></div>
+                <div id="l_sec"></div>
+            </div>
+        </div>
+        <div class="there" id="there">
+            <p>現在地區時間</p>
+            <div class =dhms>
+                <div>月</div>
+                <div>日</div>
+                <div>時</div>
+                <div>分</div>
+                <div>秒</div>
+            </div>
+            <div class="dhms">
+                <div id="t_mon"></div>
+                <div id="t_day"></div><span> </span>
+                <div id="t_hou"></div>
+                <div id="t_min"></div>
+                <div id="t_sec"></div>
+            </div>
+        </div>
+    </div>
+    <button onclick="debug()">DEBUG</button>
+    <script src="timeCalculator.js"></script>
+</body>
+</html>
